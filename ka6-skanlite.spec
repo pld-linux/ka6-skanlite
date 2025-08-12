@@ -8,7 +8,7 @@
 Summary:	skanlite
 Name:		ka6-%{kaname}
 Version:	25.04.3
-Release:	1
+Release:	2
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
@@ -21,6 +21,7 @@ BuildRequires:	Qt6Test-devel
 BuildRequires:	Qt6Widgets-devel
 BuildRequires:	gettext-tools
 BuildRequires:	ka6-ksanecore-devel >= %{kdeappsver}
+BuildRequires:	ka6-libksane-devel >= %{kdeappsver}
 BuildRequires:	kf6-extra-cmake-modules >= %{kframever}
 BuildRequires:	kf6-kconfig-devel >= %{kframever}
 BuildRequires:	kf6-kcoreaddons-devel >= %{kframever}
