@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.1
+%define		kdeappsver	25.08.2
 %define		kframever	6.13.0
 %define		qtver		6.8
 %define		kaname		skanlite
 Summary:	skanlite
 Name:		ka6-%{kaname}
-Version:	25.08.1
+Version:	25.08.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	752bcf731b2dd9139788626aff7b6ed8
+# Source0-md5:	a753386546263a077b785fa2bf39e2b3
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel
 BuildRequires:	Qt6Gui-devel >= %{qtver}
