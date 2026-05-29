@@ -49,7 +49,33 @@ ExcludeArch:	x32 i686
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Skanlite.
+Skanlite is a simple image scanning application to scan and save
+images. It is optimized for scanning with flatbed scanners. Skanlite
+can capture not only photos and documents, but also transparent slides
+and filmstrips, with supported scanners.
+
+Features:
+
+- Save dialog for every image scanned or saving the images immediately
+  in a specified folder with auto-generated names and format
+- Support for networks scanners
+- Preview with selection feature for the final scan
+- Scanning multiple selections of an image
+
+%description -l pl.UTF-8
+Skanlite jest prostą aplikacją do skanowania i zapisywania obrazów.
+Jest dostosowana do skanowania na płaskich skanerach. Skanlite może
+skanować nie tylko zdjęcia i dokumenty, ale także przezrocza oraz
+taśmy filmowe na skanerach, które to obsługują.
+
+Możliwości:
+
+- Okno dialogowe zapisywania dla każdego zeskanowanego obrazu lub
+  zapisywanie obrazów bezpośrednio w podanym katalogu z samodzielnie
+  utworzonymi nazwami i wybranym formatem
+- Obsługa skanerów w sieci
+- Podgląd z możliwością zaznaczenia ostatecznego skanowania
+- Skanowanie wielu obszarów obrazu
 
 %prep
 %setup -q -n %{kaname}-%{version}
